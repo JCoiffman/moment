@@ -109,7 +109,7 @@ function FIFAWorldCupCountdownLocal(){
     var todayMonth = parseInt(today.format("MM"));
     var todayDay = parseInt(today.format("DD"));
     var todayYear = parseInt(today.format("YYYY"));
-    // check if we have passes the start of the world cup
+    // check if we have passed the start of the world cup
     if(todayMonth > 11 || (todayMonth == 11 && todayDay > 20) || todayYear > 2022){
         return "0 Months, 0 Days, 0 hours, 0 minutes, 0 seconds";
     }
@@ -129,7 +129,7 @@ function FIFAWorldCupCountdownQatar(){
     var todayMonth = parseInt(today.format("MM"));
     var todayDay = parseInt(today.format("DD"));
     var todayYear = parseInt(today.format("YYYY"));
-    // check if we have passes the start of the world cup
+    // check if we have passed the start of the world cup
     if(todayMonth > 11 || (todayMonth == 11 && todayDay > 20) || todayYear > 2022){
         return "0 Months, 0 Days, 0 hours, 0 minutes, 0 seconds";
     }
